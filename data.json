@@ -38,23 +38,36 @@
     { "id": "36", "brand": "Leica", "model": "1349522x", "type": "Óptico", "status": "Estado Aceptable", "location": "Mesón 1", "notes": "" },
     { "id": "37", "brand": "NIKON", "model": "123M-B1", "type": "Óptico", "status": "Buen Estado", "location": "Mesón 2", "notes": "" },
     { "id": "38", "brand": "QUIMIS (WINKLER)", "model": "708-4", "type": "Óptico", "status": "Excelente Estado", "location": "Mesón 3", "notes": "MICROSCOPIO BINOCULAR" },
-    { "id": "39", "brand": "NIKON", "model": "123M-B1", "type": "Óptico", "status": "Excelente Estado", "location": "Mesón 4", "notes": "MICROSCOPIO MONOCULAR" }
+    { "id": "39", "brand": "NIKON", "model": "123M-B1", "type": "Óptico", "status": "Excelente Estado", "location": "Mesón 4", "notes": "MICROSCOPIO MONOCULAR" },
+    { "id": "40", "brand": "Olympus", "model": "CX23", "type": "Óptico", "status": "Excelente Estado", "location": "Mesón 5", "notes": "Nuevo, ideal para docencia." },
+    { "id": "41", "brand": "Zeiss", "model": "Primo Star", "type": "Óptico", "status": "Excelente Estado", "location": "Mesón 6", "notes": "Microscopio de alta calidad, con iluminación LED." },
+    { "id": "42", "brand": "Leica", "model": "DM500", "type": "Óptico", "status": "Buen Estado", "location": "Estante 4", "notes": "Requiere limpieza de objetivos." },
+    { "id": "43", "brand": "Motic", "model": "BA210E", "type": "Óptico", "status": "Excelente Estado", "location": "Mesón 7", "notes": "Microscopio binocular con óptica de campo plano." },
+    { "id": "44", "brand": "AmScope", "model": "B120B", "type": "Óptico", "status": "Estado Aceptable", "location": "Estante 5", "notes": "Foco fino un poco duro." }
   ],
   "equipment": [
     { "name": "Refrigerador", "location": "Cuarto lateral", "function": "Almacenamiento de muestras y reactivos sensibles a la temperatura." },
     { "name": "Vitrina en Frío", "location": "Cuarto lateral", "function": "Mantenimiento de muestras a baja temperatura controlada." },
     { "name": "Hornos de Secado", "location": "Cuarto lateral", "function": "Esterilización y secado de material de vidrio. (2 unidades)" },
-    { "name": "Incubadora para Placas de Bacterias", "location": "Cuarto lateral", "function": "Cultivo de microorganismos en condiciones controladas." }
+    { "name": "Incubadora para Placas de Bacterias", "location": "Cuarto lateral", "function": "Cultivo de microorganismos en condiciones controladas." },
+    { "name": "Centrífuga de Mesa", "location": "Mesón central", "function": "Separación de componentes de muestras líquidas." },
+    { "name": "Autoclave", "location": "Cuarto de esterilización", "function": "Esterilización de equipos y medios de cultivo." },
+    { "name": "Balanza Analítica", "location": "Mesón de pesaje", "function": "Medición precisa de masas de reactivos." },
+    { "name": "Agitador Magnético con Calentamiento", "location": "Mesón de preparación", "function": "Mezcla y calentamiento de soluciones." },
+    { "name": "Baño María", "location": "Mesón de preparación", "function": "Incubación de muestras a temperatura constante." },
+    { "name": "pHmetro Digital", "location": "Mesón de preparación", "function": "Medición del pH de soluciones." }
   ],
   "glassware": [
     { "type": "Probetas", "description": "Diferentes volúmenes (10ml, 25ml, 50ml, 100ml, 250ml, 500ml, 1000ml)" },
-    { "type": "Pipetas", "description": "Pipetas de vidrio Pasteur" },
+    { "type": "Pipetas", "description": "Pipetas de vidrio Pasteur, volumétricas (1ml, 5ml, 10ml), graduadas (2ml, 5ml, 10ml)" },
     { "type": "Vasos de precipitados", "description": "Diversas capacidades (50ml, 100ml, 250ml, 500ml, 1000ml, 2000ml)" },
-    { "type": "Matraces", "description": "Matraces Erlenmeyer" },
-    { "type": "Placas", "description": "Placas Petri de vidrio" },
-    { "type": "Tubos", "description": "Tubos de ensayo" },
-    { "type": "Embudos", "description": "Embudos de vidrio" },
-    { "type": "Varillas", "description": "Varillas de agitación" }
+    { "type": "Matraces", "description": "Matraces Erlenmeyer (125ml, 250ml, 500ml), Matraces aforados (50ml, 100ml, 250ml)" },
+    { "type": "Placas", "description": "Placas Petri de vidrio (90mm, 100mm), Placas de cultivo de tejidos (6, 12, 24 pozos)" },
+    { "type": "Tubos", "description": "Tubos de ensayo (13x100mm, 16x150mm), Tubos de centrífuga (15ml, 50ml), Viales" },
+    { "type": "Embudos", "description": "Embudos de vidrio (tallo corto, tallo largo), Embudos de separación (100ml, 250ml)" },
+    { "type": "Varillas", "description": "Varillas de agitación de vidrio" },
+    { "type": "Cristalizadores", "description": "Cristalizadores de vidrio (varios tamaños)" },
+    { "type": "Frascos lavadores", "description": "Frascos lavadores de vidrio (250ml, 500ml)" }
   ],
   "reagents": [
     { "name": "Ácido Clorhídrico", "formula": "HCl", "quantity": "500", "unit": "ml", "expiration": "2026-12-31", "supplier": "Merck", "storage": "Lugar fresco y seco, lejos de bases y oxidantes.", "hazard": "Corrosivo, irritante." },
@@ -76,18 +89,24 @@
     { "name": "Solución Salina Fisiológica", "formula": "NaCl (0.9%)", "quantity": "5", "unit": "L", "expiration": "2026-07-01", "supplier": "Baxter", "storage": "Lugar fresco y seco.", "hazard": "Ninguno." },
     { "name": "Agar-Agar", "formula": "N/A", "quantity": "500", "unit": "g", "expiration": "2027-04-01", "supplier": "BD Difco", "storage": "Lugar fresco y seco.", "hazard": "Ninguno significativo." },
     { "name": "Cristal Violeta", "formula": "C25H30ClN3", "quantity": "25", "unit": "g", "expiration": "2028-02-01", "supplier": "Sigma-Aldrich", "storage": "Lugar fresco y seco, protegido de la luz.", "hazard": "Irritante, posible carcinógeno." },
-    { "name": "Lugol (Yodo-Yoduro)", "formula": "I2/KI", "quantity": "100", "unit": "ml", "expiration": "2026-09-01", "supplier": "BD Difco", "storage": "Lugar fresco y oscuro.", "hazard": "Irritante, nocivo por ingestión." }
+    { "name": "Lugol (Yodo-Yoduro)", "formula": "I2/KI", "quantity": "100", "unit": "ml", "expiration": "2026-09-01", "supplier": "BD Difco", "storage": "Lugar fresco y oscuro.", "hazard": "Irritante, nocivo por ingestión." },
+    { "name": "Sodio Cloruro", "formula": "NaCl", "quantity": "1", "unit": "kg", "expiration": "N/A", "supplier": "Sigma-Aldrich", "storage": "Lugar fresco y seco.", "hazard": "Ninguno significativo." },
+    { "name": "Sulfato de Cobre", "formula": "CuSO4", "quantity": "250", "unit": "g", "expiration": "N/A", "supplier": "Merck", "storage": "Lugar fresco y seco, bien sellado.", "hazard": "Nocivo por ingestión, irritante." },
+    { "name": "Permanganato de Potasio", "formula": "KMnO4", "quantity": "100", "unit": "g", "expiration": "N/A", "supplier": "VWR", "storage": "Lugar fresco y seco, lejos de materiales combustibles.", "hazard": "Oxidante, irritante." },
+    { "name": "Ácido Acético Glacial", "formula": "CH3COOH", "quantity": "1", "unit": "L", "expiration": "2027-09-01", "supplier": "J.T.Baker", "storage": "Lugar fresco y bien ventilado, lejos de oxidantes.", "hazard": "Corrosivo, inflamable." }
   ],
   "samples": [
-    { "box": "Caja 1", "type": "Tejidos animales", "notes": "Hígado, riñón, músculo", "details": ["Corte de hígado (H&E)", "Corte de riñón (Tricrómica)", "Corte de músculo estriado (H&E)", "Corte de bazo", "Corte de páncreas"] },
-    { "box": "Caja 2", "type": "Tejidos vegetales", "notes": "Raíz, tallo, hoja", "details": ["Corte transversal de raíz", "Corte longitudinal de tallo", "Epidermis de hoja", "Corte de flor", "Corte de fruto"] },
-    { "box": "Caja 3", "type": "Muestras con tinciones especiales", "notes": "H&E, Tricrómica de Masson", "details": ["Frotis sanguíneo (Wright)", "Tejido conectivo (Masson)", "Epitelio escamoso (H&E)", "Corte de hueso (Azul de Toluidina)", "Corte de cartílago (Orceína)"] },
-    { "box": "Caja 4", "type": "Muestras para Biología Celular", "notes": "Frotis sanguíneos", "details": ["Células epiteliales bucales", "Células de cebolla", "Frotis de sangre humana", "Cultivo de levaduras", "Células de músculo liso"] },
-    { "box": "Caja 5", "type": "Tejidos animales", "notes": "Piel, intestino, cerebro", "details": ["Corte de piel (H&E)", "Corte de intestino delgado", "Corte de cerebro", "Corte de médula espinal", "Corte de ganglio"] },
-    { "box": "Caja 6", "type": "Tejidos vegetales", "notes": "Flores, frutos", "details": ["Corte de ovario de flor", "Corte de fruto (baya)", "Polen", "Semilla en germinación", "Tejido meristemático"] },
-    { "box": "Caja 7", "type": "Muestras patológicas", "notes": "Diversas patologías", "details": ["Tejido tumoral (carcinoma)", "Inflamación crónica (granuloma)", "Degeneración celular (esteatosis)", "Necrosis tisular", "Fibrosis"] },
-    { "box": "Caja 8", "type": "Microorganismos", "notes": "Cultivos bacterianos", "details": ["Bacilos Gram-positivos", "Cocos Gram-negativos", "Espiroquetas", "Hongos filamentosos", "Protozoos"] },
-    { "box": "Caja 9", "type": "Muestras de desarrollo", "notes": "Embriones, larvas", "details": ["Embrión de pollo (48h)", "Larva de drosophila", "Corte de gónada", "Corte de blastocisto", "Etapas de gastrulación"] },
-    { "box": "Caja 10", "type": "Muestras diversas", "notes": "Variedad de muestras", "details": ["Corte de hueso (descalcificado)", "Cartílago hialino", "Nervio periférico", "Tejido adiposo", "Glándula salival"] }
+    { "box": "Caja 1", "type": "Tejidos animales", "notes": "Hígado, riñón, músculo", "details": ["Corte de hígado (H&E)", "Corte de riñón (Tricrómica)", "Corte de músculo estriado (H&E)", "Corte de bazo", "Corte de páncreas", "Corte de corazón", "Corte de pulmón"] },
+    { "box": "Caja 2", "type": "Tejidos vegetales", "notes": "Raíz, tallo, hoja", "details": ["Corte transversal de raíz", "Corte longitudinal de tallo", "Epidermis de hoja", "Corte de flor", "Corte de fruto", "Corte de semilla", "Corte de cono de pino"] },
+    { "box": "Caja 3", "type": "Muestras con tinciones especiales", "notes": "H&E, Tricrómica de Masson", "details": ["Frotis sanguíneo (Wright)", "Tejido conectivo (Masson)", "Epitelio escamoso (H&E)", "Corte de hueso (Azul de Toluidina)", "Corte de cartílago (Orceína)", "Corte de nervio (Luxol Fast Blue)", "Corte de glándula salival (PAS)"] },
+    { "box": "Caja 4", "type": "Muestras para Biología Celular", "notes": "Frotis sanguíneos", "details": ["Células epiteliales bucales", "Células de cebolla", "Frotis de sangre humana", "Cultivo de levaduras", "Células de músculo liso", "Células de paramecio", "Células de ameba"] },
+    { "box": "Caja 5", "type": "Tejidos animales", "notes": "Piel, intestino, cerebro", "details": ["Corte de piel (H&E)", "Corte de intestino delgado", "Corte de cerebro", "Corte de médula espinal", "Corte de ganglio", "Corte de tiroides", "Corte de suprarrenal"] },
+    { "box": "Caja 6", "type": "Tejidos vegetales", "notes": "Flores, frutos", "details": ["Corte de ovario de flor", "Corte de fruto (baya)", "Polen", "Semilla en germinación", "Tejido meristemático", "Corte de esporangio de helecho", "Corte de musgo"] },
+    { "box": "Caja 7", "type": "Muestras patológicas", "notes": "Diversas patologías", "details": ["Tejido tumoral (carcinoma)", "Inflamación crónica (granuloma)", "Degeneración celular (esteatosis)", "Necrosis tisular", "Fibrosis", "Corte con quiste", "Corte con calcificación"] },
+    { "box": "Caja 8", "type": "Microorganismos", "notes": "Cultivos bacterianos", "details": ["Bacilos Gram-positivos", "Cocos Gram-negativos", "Espiroquetas", "Hongos filamentosos", "Protozoos", "Algas unicelulares", "Levaduras en gemación"] },
+    { "box": "Caja 9", "type": "Muestras de desarrollo", "notes": "Embriones, larvas", "details": ["Embrión de pollo (48h)", "Larva de drosophila", "Corte de gónada", "Corte de blastocisto", "Etapas de gastrulación", "Embrión de pez cebra", "Corte de huevo de erizo de mar"] },
+    { "box": "Caja 10", "type": "Muestras diversas", "notes": "Variedad de muestras", "details": ["Corte de hueso (descalcificado)", "Cartílago hialino", "Nervio periférico", "Tejido adiposo", "Glándula salival", "Corte de ojo", "Corte de oído interno"] },
+    { "box": "Caja 11", "type": "Tejidos animales (especializados)", "notes": "Sistema nervioso, endocrino", "details": ["Corte de cerebelo", "Corte de médula espinal", "Corte de glándula pituitaria", "Corte de glándula tiroides", "Corte de glándula suprarrenal"] },
+    { "box": "Caja 12", "type": "Tejidos vegetales (especializados)", "notes": "Tejidos conductores, reproductivos", "details": ["Corte de xilema y floema", "Corte de estoma", "Corte de anteras con polen", "Corte de ovario floral", "Corte de fruto maduro"] }
   ]
 }
